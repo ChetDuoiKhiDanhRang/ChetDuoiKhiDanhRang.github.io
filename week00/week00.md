@@ -1,6 +1,6 @@
 # 🗄 Week 00
 ### Practical information
-[©](https://creativecommons.org/licenses/by/4.0/) [Johnny Chan](mailto:jh.chan@auckland.ac.nz) - Test upload ChetDuoiKhiDanhRang.github.io
+[©](https://creativecommons.org/licenses/by/4.0/) [Johnny Chan](mailto:jh.chan@auckland.ac.nz)
 
 
 
