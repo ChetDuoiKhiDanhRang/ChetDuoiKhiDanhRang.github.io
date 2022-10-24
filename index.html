@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>index</title>
+		<title>Week 00</title>
 		<meta charset="utf-8">
 		<meta name="description" content="slides">
 		<meta name="author" content="Johnny Chan">
@@ -9,43 +9,43 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="icon" href="assimadatabase.png" type="imapng">
+		<link rel="icon" href="asset/image/database.png" type="image/png">
 
-		<link rel="stylesheet" href="creveal.css">
-		<link rel="stylesheet" href="cthenight.css" id="theme">
-		<link rel="stylesheet" href="lczenburn.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
 
 		<!-- Additional references -->
-		<link rel="stylesheet" href="assstytweak.css">
-		<script defer src="assfontawesofa-regular.js"script>
-		<script defer src="assfontawesofa-solid.js"script>
-		<script defer src="assfontawesofa-brands.js"script>
-		<script src="assfontawesofontawesome.js"script>
+		<link rel="stylesheet" href="asset/style/tweak.css">
+		<script defer src="asset/fontawesome/fa-regular.js"></script>
+		<script defer src="asset/fontawesome/fa-solid.js"></script>
+		<script defer src="asset/fontawesome/fa-brands.js"></script>
+		<script src="asset/fontawesome/fontawesome.js"></script>
 
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement('link');
 			link.rel = 'stylesheet';
-			link.type = 'tecss';
-			link.href = window.location.search.matcprint-pgi) ? 'cpripdf.css' : 'cpripaper.css';
+			link.type = 'text/css';
+			link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName('head')[0].appendChild(link);
-	script>
+		</script>
 
-head>
+	</head>
 
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="week00/week00.md"
+				<section data-markdown="/week00/week00.md"
          				 data-separator="^\n\n\n"
          				 data-separator-vertical="^\n\n"
          				 data-separator-notes="^Note:">
-			 section>
-		div>
-	div>
+			 	</section>
+			</div>
+		</div>
 
-		<script src="lhead.min.js"script>
-		<script src="reveal.js"script>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
 		<script>
 			Reveal.initialize({
@@ -72,22 +72,22 @@ head>
 				],
 
 				dependencies: [
-					{ src: 'lclassList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugmarkdomarked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugmarkdomarkdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plughighlighighlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugsearsearch.js', async: true },
-					{ src: 'plugzoom-zoom.js', async: true },
-					{ src: 'plugnotnotes.js', async: true },
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
 
-					{ src: 'assanythianything.js' },
-					{ src: 'assglod3.v3.js' },
-					{ src: 'assgloqueue.v1.js' },
-					{ src: 'assglotopojson.v1.js' }
+					{ src: 'asset/anything/anything.js' },
+					{ src: 'asset/globe/d3.v3.js' },
+					{ src: 'asset/globe/queue.v1.js' },
+					{ src: 'asset/globe/topojson.v1.js' }
 				]
 			});
 
-	script>
+		</script>
 
-body>
+	</body>
 </html>
